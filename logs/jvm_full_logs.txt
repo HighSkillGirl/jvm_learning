@@ -15,7 +15,7 @@ OpenJDK 64-Bit Server VM (17.0.11+1-b1312.2) for bsd-amd64 JRE (17.0.11+1-b1312.
 <args>
 -Xlog:all=trace:file=logs/jvm_full_logs.txt -XX:+PrintCommandLineFlags -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput -XX:LogFile=logs/jvm_full_logs.txt </args>
 <command>
-Main
+high.skill.girl.learns.jvm.main.Main
 </command>
 <launcher>
 SUN_STANDARD
@@ -34,7 +34,7 @@ java.vm.info=mixed mode, sharing
 java.vm.specification.vendor=Oracle Corporation
 java.vm.specification.version=17
 java.vm.vendor=JetBrains s.r.o.
-sun.java.command=Main
+sun.java.command=high.skill.girl.learns.jvm.main.Main
 sun.java.launcher=SUN_STANDARD
 </properties>
 </vm_arguments>
@@ -171,7 +171,7 @@ sun.java.launcher=SUN_STANDARD
 [0.017s][trace][gc,task          ] Adding initial GC Thread(s) previously created workers 0 active workers 1 total created workers 1
 [0.017s][info ][os,thread        ] Thread is alive (tid: 13315, pthread id: 123145571225600).
 [0.017s][debug][os,thread        ] Thread 13315 stack dimensions: 0x000070000ff75000-0x0000700010075000 (1024k).
-[0.017s][info ][os,thread        ] Thread "G1 Main Marker" started (pthread id: 123145572286464, attributes: stacksize: 1024k, guardsize: 4k, detached). 
+[0.017s][info ][os,thread        ] Thread "G1 high.skill.girl.learns.jvm.main.Main Marker" started (pthread id: 123145572286464, attributes: stacksize: 1024k, guardsize: 4k, detached).
 [0.017s][debug][gc               ] ConcGCThreads: 3 offset 29
 [0.017s][debug][gc               ] ParallelGCThreads: 13
 [0.017s][info ][os,thread        ] Thread is alive (tid: 12803, pthread id: 123145572286464).
@@ -12836,11 +12836,11 @@ sun.java.launcher=SUN_STANDARD
 [0.198s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x000000017200aaa8.
 [0.198s][trace][metaspace              ] Metaspace::allocate: type 13 return 0x000000017200aaa8.
 [0.198s][debug][jni,resolve            ] [Dynamic-linking native method java.lang.ClassLoader.findBootstrapClass ... JNI]
-[0.198s][debug][class,load,placeholders] find_and_add LOAD_INSTANCE 'Main', loader loader data: 0x0000600000398000 of 'bootstrap'
+[0.198s][debug][class,load,placeholders] find_and_add LOAD_INSTANCE 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x0000600000398000 of 'bootstrap'
 [0.198s][debug][class,load,placeholders] loadInstanceThreadQ threads:0x00007f7813808a00, 
 [0.198s][debug][class,load,placeholders] superThreadQ threads:
 [0.198s][debug][class,load,placeholders] defineThreadQ threads:
-[0.198s][debug][class,load,placeholders] find_and_remove LOAD_INSTANCE 'Main', loader loader data: 0x0000600000398000 of 'bootstrap'
+[0.198s][debug][class,load,placeholders] find_and_remove LOAD_INSTANCE 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x0000600000398000 of 'bootstrap'
 [0.198s][debug][class,load,placeholders] loadInstanceThreadQ threads:0x00007f7813808a00, 
 [0.199s][debug][class,load,placeholders] superThreadQ threads:
 [0.199s][debug][class,load,placeholders] defineThreadQ threads:
@@ -15336,7 +15336,7 @@ sun.java.launcher=SUN_STANDARD
 [0.233s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b2d8, u, base 0x0000000172400000, level lv12 (512), used: 48, committed: 512, committed-free: 464
 [0.233s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): returning 0x0000000172400158.
 [0.233s][trace][metaspace              ] Metaspace::allocate: type 5 return 0x0000000172400158.
-[0.233s][debug][class,preorder         ] Main source: file:/Users/vnfedorova/IdeaProjects/my/JVM_learning/src/
+[0.233s][debug][class,preorder         ] high.skill.girl.learns.jvm.main.Main source: file:/Users/vnfedorova/IdeaProjects/my/JVM_learning/src/
 [0.233s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): requested 1 words.
 [0.234s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b2d8, u, base 0x0000000172400000, level lv12 (512), used: 50, committed: 512, committed-free: 462
 [0.234s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): returning 0x0000000172400180.
@@ -15361,7 +15361,7 @@ sun.java.launcher=SUN_STANDARD
 [0.234s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b2d8, u, base 0x0000000172400000, level lv12 (512), used: 94, committed: 512, committed-free: 418
 [0.234s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): returning 0x0000000172400288.
 [0.234s][trace][metaspace              ] Metaspace::allocate: type 7 return 0x0000000172400288.
-[0.234s][debug][class,load,placeholders] find_and_add LOAD_SUPER 'Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, supername 'java/lang/Object'
+[0.234s][debug][class,load,placeholders] find_and_add LOAD_SUPER 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, supername 'java/lang/Object'
 [0.234s][debug][class,load,placeholders] loadInstanceThreadQ threads:
 [0.234s][debug][class,load,placeholders] superThreadQ threads:0x00007f7813808a00, 
 [0.234s][debug][class,load,placeholders] defineThreadQ threads:
@@ -15374,7 +15374,7 @@ sun.java.launcher=SUN_STANDARD
 [0.234s][debug][protectiondomain,table ] protection domain added a 'java/security/ProtectionDomain'{0x000000061fc1a3c0}
 [0.234s][trace][oopstorage,ref         ] VM Weak: allocated 0x00007f7812a06110
 [0.234s][trace][protectiondomain       ] adding protection domain for class java/lang/Object class loader: a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8} protection domain: a 'java/security/ProtectionDomain'{0x000000061fc1a3c0} pd set count = #1
-[0.234s][debug][class,load,placeholders] find_and_remove LOAD_SUPER 'Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, supername 'java/lang/Object'
+[0.234s][debug][class,load,placeholders] find_and_remove LOAD_SUPER 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, supername 'java/lang/Object'
 [0.234s][debug][class,load,placeholders] loadInstanceThreadQ threads:
 [0.234s][debug][class,load,placeholders] superThreadQ threads:0x00007f7813808a00, 
 [0.234s][debug][class,load,placeholders] defineThreadQ threads:
@@ -15390,12 +15390,12 @@ sun.java.launcher=SUN_STANDARD
 [0.234s][trace][metaspace              ] Arena @0x0000600002789d80 (class sm): after allocation: 1 chunk(s), current:@0x00007f780280b1b8, u, base 0x0000000132000800, level lv13 (256), used: 70, committed: 256, committed-free: 186
 [0.234s][trace][metaspace              ] Arena @0x0000600002789d80 (class sm): returning 0x0000000132000800.
 [0.234s][trace][metaspace              ] Metaspace::allocate: type 0 return 0x0000000132000800.
-[0.234s][trace][class,loader,data      ] Adding k: 0x0000000132000800 Main to loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}
-[0.234s][trace][module                 ] Setting package: class: Main, package: unnamed, loader: 'app', module: unnamed module
-[0.234s][info ][class,load             ] Main source: file:/Users/vnfedorova/IdeaProjects/my/JVM_learning/src/
+[0.234s][trace][class,loader,data      ] Adding k: 0x0000000132000800 high.skill.girl.learns.jvm.main.Main to loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}
+[0.234s][trace][module                 ] Setting package: class: high.skill.girl.learns.jvm.main.Main, package: unnamed, loader: 'app', module: unnamed module
+[0.234s][info ][class,load             ] high.skill.girl.learns.jvm.main.Main source: file:/Users/vnfedorova/IdeaProjects/my/JVM_learning/src/
 [0.234s][debug][class,load             ]  klass: 0x0000000132000800 super: 0x0000000131000db8 loader: [loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}] bytes: 414 checksum: 3db0d263
-[0.234s][debug][class,resolve          ] Main java.lang.Object (super)
-[0.234s][debug][class,load,placeholders] find_and_add DEFINE_CLASS 'Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}
+[0.234s][debug][class,resolve          ] high.skill.girl.learns.jvm.main.Main java.lang.Object (super)
+[0.234s][debug][class,load,placeholders] find_and_add DEFINE_CLASS 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}
 [0.234s][debug][class,load,placeholders] loadInstanceThreadQ threads:
 [0.234s][debug][class,load,placeholders] superThreadQ threads:
 [0.234s][debug][class,load,placeholders] defineThreadQ threads:0x00007f7813808a00, 
@@ -15406,11 +15406,11 @@ sun.java.launcher=SUN_STANDARD
 [0.234s][debug][class,resolve          ] java.lang.ClassLoader java.util.ArrayList ClassLoader.java:322
 [0.234s][debug][class,resolve          ] java.util.ArrayList jdk.internal.util.ArraysSupport ArrayList.java:234
 [0.234s][debug][class,resolve          ] java.util.ArrayList java.util.Arrays ArrayList.java:237
-[0.234s][debug][class,load,placeholders] find_and_remove DEFINE_CLASS 'Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, InstanceKlass 'Main'
+[0.234s][debug][class,load,placeholders] find_and_remove DEFINE_CLASS 'high.skill.girl.learns.jvm.main.Main', loader loader data: 0x00006000003880a0 for instance a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8}, InstanceKlass 'high.skill.girl.learns.jvm.main.Main'
 [0.234s][debug][class,load,placeholders] loadInstanceThreadQ threads:
 [0.234s][debug][class,load,placeholders] superThreadQ threads:
 [0.234s][debug][class,load,placeholders] defineThreadQ threads:0x00007f7813808a00, 
-[0.234s][debug][class,resolve          ] sun.launcher.LauncherHelper Main LauncherHelper.java:794 (explicit)
+[0.234s][debug][class,resolve          ] sun.launcher.LauncherHelper high.skill.girl.learns.jvm.main.Main LauncherHelper.java:794 (explicit)
 [0.234s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): requested 7 words.
 [0.234s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 7992, committed: 8192, committed-free: 200
 [0.234s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x000000017200f988.
@@ -15468,7 +15468,7 @@ sun.java.launcher=SUN_STANDARD
 [0.236s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 8058, committed: 8192, committed-free: 134
 [0.236s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x000000017200fb98.
 [0.236s][trace][metaspace              ] Metaspace::allocate: type 13 return 0x000000017200fb98.
-[0.236s][debug][class,resolve          ] sun.launcher.LauncherHelper Main LauncherHelper.java:794 (explicit)
+[0.236s][debug][class,resolve          ] sun.launcher.LauncherHelper high.skill.girl.learns.jvm.main.Main LauncherHelper.java:794 (explicit)
 [0.236s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): requested 7 words.
 [0.236s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 8065, committed: 8192, committed-free: 127
 [0.236s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x000000017200fbd0.
@@ -15586,9 +15586,9 @@ sun.java.launcher=SUN_STANDARD
 [0.237s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 8156, committed: 8192, committed-free: 36
 [0.237s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x000000017200fea8.
 [0.237s][trace][metaspace              ] Metaspace::allocate: type 13 return 0x000000017200fea8.
-[0.237s][info ][class,init             ] Start class verification for: Main
-[0.237s][info ][verification           ] Verifying class Main with new format
-[0.237s][info ][verification           ] Verifying method Main.<init>()V
+[0.237s][info ][class,init             ] Start class verification for: high.skill.girl.learns.jvm.main.Main
+[0.237s][info ][verification           ] Verifying class high.skill.girl.learns.jvm.main.Main with new format
+[0.237s][info ][verification           ] Verifying method high.skill.girl.learns.jvm.main.Main.<init>()V
 [0.237s][debug][verification           ] StackMapTable: frame_count = 0
 [0.237s][debug][verification           ] table = { 
 [0.237s][debug][verification           ]  }
@@ -15604,10 +15604,10 @@ sun.java.launcher=SUN_STANDARD
 [0.237s][debug][verification           ] offset = 1,  opcode = invokespecial
 [0.237s][debug][verification           ] bci: @4
 [0.237s][debug][verification           ] flags: { }
-[0.237s][debug][verification           ] locals: { 'Main' }
+[0.237s][debug][verification           ] locals: { 'high.skill.girl.learns.jvm.main.Main' }
 [0.237s][debug][verification           ] stack: { }
 [0.237s][debug][verification           ] offset = 4,  opcode = return
-[0.237s][info ][verification           ] Verifying method Main.main([Ljava/lang/String;)V
+[0.237s][info ][verification           ] Verifying method high.skill.girl.learns.jvm.main.Main.main([Ljava/lang/String;)V
 [0.237s][debug][verification           ] StackMapTable: frame_count = 0
 [0.237s][debug][verification           ] table = { 
 [0.237s][debug][verification           ]  }
@@ -15631,8 +15631,8 @@ sun.java.launcher=SUN_STANDARD
 [0.238s][debug][verification           ] locals: { '[Ljava/lang/String;' }
 [0.238s][debug][verification           ] stack: { }
 [0.238s][debug][verification           ] offset = 8,  opcode = return
-[0.238s][info ][class,init             ] End class verification for: Main
-[0.238s][info ][verification           ] End class verification for: Main
+[0.238s][info ][class,init             ] End class verification for: high.skill.girl.learns.jvm.main.Main
+[0.238s][info ][verification           ] End class verification for: high.skill.girl.learns.jvm.main.Main
 [0.238s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): requested 17 words.
 [0.238s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b2d8, u, base 0x0000000172400000, level lv12 (512), used: 111, committed: 512, committed-free: 401
 [0.238s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): returning 0x00000001724002f0.
@@ -15885,17 +15885,17 @@ sun.java.launcher=SUN_STANDARD
 [0.241s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 8394, committed: 16384, committed-free: 7990
 [0.241s][trace][metaspace              ] Arena @0x0000600002799680 (non-class sm): returning 0x0000000172010618.
 [0.241s][trace][metaspace              ] Metaspace::allocate: type 13 return 0x0000000172010618.
-[0.241s][info ][class,init             ] 287 Initializing 'Main'(no method) (0x0000000132000800)
+[0.241s][info ][class,init             ] 287 Initializing 'high.skill.girl.learns.jvm.main.Main'(no method) (0x0000000132000800)
 [0.241s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): requested 7 words.
 [0.241s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b2d8, u, base 0x0000000172400000, level lv12 (512), used: 120, committed: 512, committed-free: 392
 [0.241s][trace][metaspace              ] Arena @0x0000600002789e00 (non-class sm): returning 0x0000000172400388.
 [0.241s][trace][metaspace              ] Metaspace::allocate: type 13 return 0x0000000172400388.
 [0.241s][trace][protectiondomain       ] adding protection domain for class java/lang/System class loader: a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8} protection domain: a 'java/security/ProtectionDomain'{0x000000061fc1a3c0} pd set count = #1
-[0.241s][debug][class,resolve          ] Main java.lang.System Main.java:3
+[0.241s][debug][class,resolve          ] high.skill.girl.learns.jvm.main.Main java.lang.System high.skill.girl.learns.jvm.main.Main.java:3
 [0.241s][info ][class,loader,constraints] adding new constraint for name: java/io/PrintStream, loader[0]: 'app', loader[1]: 'bootstrap'
 [0.241s][trace][oopstorage,ref          ] StringTable Weak: allocated 0x00007f7802005a10
 [0.241s][trace][protectiondomain        ] adding protection domain for class java/io/PrintStream class loader: a 'jdk/internal/loader/ClassLoaders$AppClassLoader'{0x00000007ffb556a8} protection domain: a 'java/security/ProtectionDomain'{0x000000061fc1a3c0} pd set count = #1
-[0.241s][debug][class,resolve           ] Main java.io.PrintStream Main.java:3
+[0.241s][debug][class,resolve           ] high.skill.girl.learns.jvm.main.Main java.io.PrintStream high.skill.girl.learns.jvm.main.Main.java:3
 [0.241s][trace][metaspace               ] Arena @0x0000600002799680 (non-class sm): requested 7 words.
 [0.241s][trace][metaspace               ] Arena @0x0000600002799680 (non-class sm): after allocation: 1 chunk(s), current:@0x00007f780280b248, u, base 0x0000000172000000, level lv02 (524288), used: 8401, committed: 16384, committed-free: 7983
 [0.241s][trace][metaspace               ] Arena @0x0000600002799680 (non-class sm): returning 0x0000000172010650.

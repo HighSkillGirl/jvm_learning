@@ -163,7 +163,7 @@
 [0.005s][trace][gc,task          ] GC Thread: using 1 out of 9 workers
 [0.005s][info ][os,thread        ] Thread is alive (tid: 12803, pthread id: 6172045312).
 [0.005s][debug][os,thread        ] Thread 12803 stack dimensions: 0x000000016fc1c000-0x000000016fe1f000 (2060k).
-[0.005s][info ][os,thread        ] Thread "G1 Main Marker" started (pthread id: 6174191616, attributes: stacksize: 2048k, guardsize: 16k, detached).
+[0.005s][info ][os,thread        ] Thread "G1 high.skill.girl.learns.jvm.main.Main Marker" started (pthread id: 6174191616, attributes: stacksize: 2048k, guardsize: 16k, detached).
 [0.005s][debug][gc               ] ConcGCThreads: 2 offset 20
 [0.005s][debug][gc               ] ParallelGCThreads: 9
 [0.005s][info ][os,thread        ] Thread is alive (tid: 13059, pthread id: 6174191616).
